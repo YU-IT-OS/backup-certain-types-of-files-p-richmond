@@ -1,4 +1,4 @@
-#!/bin/bash
+!/bin/bash
 if [ -z "$3" ]
 then
         echo "
@@ -18,4 +18,4 @@ then
         echo "$targetDir" ]
         exit 0;
 fi
-find $targetDir -name *$fileExtention -exec cp  {} $finaldestinationDir \
+find $targetDir -name "*$fileExtention" -exec cp  {} $finaldestinationDir \
